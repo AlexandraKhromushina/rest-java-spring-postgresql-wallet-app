@@ -1,0 +1,4 @@
+CREATE TABLE wallets (
+    id UUID PRIMARY KEY,
+    balance DECIMAL NOT NULL DEFAULT 0
+);
